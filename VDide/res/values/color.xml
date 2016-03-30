@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text">#fff</color>
+    <color name="radioGroup_bg">#3F4243</color>
+    <color name="textColor">#E79344</color>
+    <color name="roundColor">#ffe79c</color>
+    <color name="roundProgressColor">#ff0000</color>
+    <color name="loadProgressColor">#323232</color>
+    <color name="arcColor">#33000000</color>
+    <color name="singerColor">#73504E</color>
+    <color name="b_hisound">#E8BF6A</color>
+    <color name="line">#742214</color>
+    <color name="rectColor">#60BCAAA9</color>
+    <color name="lineColor">#D4BDCF</color>
+    <color name="rectColorBar">#F56F6C</color>
+    <color name="rectBarbg">#252931</color>
+    <color name="lineBarbg">#B43F3D</color>
+    <color name="timeColor">#ffffff</color>
+    <color name="listColor">#EE4753</color>
+    
+
+</resources>

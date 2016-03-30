@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DIY</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fr_sina">FrSinaActivity</string>
+    <string name="title_activity_fr_me">FrMeActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_playing">PlayingActivity</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="title_activity_version_information">VersionInformationActivity</string>
+    <string name="title_activity_wel">WelActivity</string>
+    <string name="title_activity_vdisk">VDiskActivity</string>
+    <string name="title_activity_vdisk_main">VDiskMainActivity</string>
+
+</resources>

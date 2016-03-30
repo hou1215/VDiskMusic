@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:background="#700F465C"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+       <!--  <TextView
+        android:id="@+id/text1"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:textColor="#fff"
+         />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_marginTop="30dp"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         /> -->
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/micon" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_icon"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="70dp"
+            android:singleLine="true"
+	        android:textSize="15sp"
+	        android:textColor="#fff"
+            android:layout_toRightOf="@+id/iv_icon" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_icon"
+            android:layout_alignLeft="@+id/text1"
+            android:layout_marginLeft="10dp"
+	        android:textSize="12sp"
+	        android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/collect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="20dp"
+            android:src="@drawable/uncollect" />
+
+        <ImageView
+            android:id="@+id/iv_upload"
+            android:layout_width="50dp"
+            android:padding="14dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/collect"/>
+
+    </RelativeLayout>
+    
+
+</LinearLayout>

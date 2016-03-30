@@ -1,0 +1,7 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1452156718909 16046 5e303a03d04e6788dddfa3655272580ae0fc13bb D:\demo\VDiskSdk\libs\json_simple-1.1.jar
+1452156719670 16046 5e303a03d04e6788dddfa3655272580ae0fc13bb D:\demo\VSide\libs\json_simple-1.1.jar
+1450229735607 1364299 b6c138ba72ce38beda559df33d369856854fd6f5 D:\demo\appcompat_v7\libs\android-support-v4.jar
+1458275526877 1364299 b6c138ba72ce38beda559df33d369856854fd6f5 D:\demo\VSide\libs\android-support-v4.jar

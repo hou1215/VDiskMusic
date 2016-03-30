@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.hyuan.diy.view.VersionInformationActivity" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#DE1F55" >
+
+        <TextView
+            android:id="@+id/mtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="版本信息"
+            android:textColor="#fff"/>
+        
+        
+        
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/local" />
+
+    <TextView
+        android:id="@+id/vercation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:textColor="#fff"
+        android:text="当前版本" />
+    
+    <RelativeLayout 
+        android:layout_below="@id/vercation"
+        android:layout_width="match_parent"
+        android:id="@+id/check"
+        android:layout_marginTop="30dp"
+        android:background="#70666666"
+        android:layout_height="45dp">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:text="检查更新"
+        		android:textColor="#fff"
+                android:id="@+id/textView01" 
+                android:layout_centerVertical="true" 
+                android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+    
+            <TextView
+            android:layout_below="@id/check"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#fff"
+            android:id="@+id/textView02"/>
+    <RelativeLayout 
+        android:layout_below="@id/textView02"
+        android:layout_width="match_parent"
+        android:id="@+id/welcome"
+        android:background="#70666666"
+        android:layout_height="45dp">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:text="启动页面"
+        		android:textColor="#fff"
+                android:id="@+id/textView" 
+                android:layout_centerVertical="true" 
+                android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_below="@id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#fff"
+        android:id="@+id/textView1"/>
+
+</RelativeLayout>
